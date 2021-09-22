@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -56,44 +56,110 @@
     </header>
 
     <!-- FIN BARRA DE NAVEGACION-->
+    <!-- <div class="container"> -->
+    <section class="section">
+        <div class="columns is-centered">
 
+            <div class="column is-3">
+                <div class="is-flex-direction-row">
+                    <div class="card m-1">
+                        <div class="card-content">
+                            <div class="content">
+                                <h2 class="title is-2">Balance</h2>
+                                Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi
+                                porta
+                                gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur
+                                ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card m-1 mt-2">
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="is-flex is-justify-content-space-between is-align-items-baseline">
+                                    <h3 class="title is-3">Filtros</h3>
+                                    <a class="is-size-5" href="">Ocultar filtros</a>
+                                </div>
+                                <form>
+                                    <div class="field">
+                                        <label class="label" for="tipo">Tipo</label>
+                                        <div class="control">
+                                            <div class="select is-fullwidth">
+                                                <select id="tipo">
+                                                    <option value="Todos">Todos</option>
+                                                    <option value="Gasto">Gasto</option>
+                                                    <option value="Ganancia">Ganancia</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    <div class="section is-medium columns">
+                                    <div class="field">
+                                        <label class="label" for="categoria">Categoria</label>
+                                        <div class="control">
+                                            <div class="select is-fullwidth">
+                                                <select class="" id="categoria">
+                                                    <option value="Todas">Todas</option>
+                                                    <option value="Comida">Comida</option>
+                                                    <option value="Servicios">Servicios</option>
+                                                    <option value="Salidas">Salidas</option>
+                                                    <option value="Educacion">Educacion</option>
+                                                    <option value="Transporte">Transporte</option>
+                                                    <option value="Trabajo">Trabajo</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
 
-        <div class="card column is-2 is-offset-2">
-            <div class="row">
-                <div class="card-content">
-                    <div class="content">
-                        <h2 class="title is-2">Balance</h2>
-                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
-                        gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                        ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+                                    <div class="field">
+                                        <label for="desde">Desde</label>
+                                        <div class="control">
+                                            <input class="input" type="date" id="desde">
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <label class="label" for="ordenar">Ordenar por</label>
+                                        <div class="control">
+                                            <div class="select is-fullwidth">
+                                                <select id="ordenar">
+                                                    <option value="Mas reciente">Mas reciente</option>
+                                                    <option value="Menos reciente">Menos reciente</option>
+                                                    <option value="Mayor monto">Mayor monto</option>
+                                                    <option value="Menor monto">Menor monto</option>
+                                                    <option value="A/Z">A/Z</option>
+                                                    <option value="Z/A">Z/A</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card-content">
-                    <div class="content">
-                        <h3 class="title is-3">Filtros</h3>
-                        Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
-                        gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                        ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+            </div>
+
+
+            <div class="column is-6">
+                <div class="card m-1">
+                    <div class="card-image">
+
+                        <div class="is-flex is-justify-content-space-between is-align-items-baseline p-4">
+                            <h3 class="title is-3">Operaciones</h3>
+                            <button class="button is-primary ">+ Nueva operacion</button>
+                        </div>
+
+                        <figure class="image">
+                            <img src="./wallet.png" alt="billetera">
+                        </figure>
+
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <div class="card column is-6">
-            <div class="card-content">
-                <div class="content">
-                    <h3 class="title is-3">Operaciones</h3>
-                    Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta
-                    gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
-                </div>
-            </div>
-
-        </div>
-    </div>
-
+    </section>
+    <!-- </div> -->
 
 </html>
