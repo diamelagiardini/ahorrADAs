@@ -33,19 +33,19 @@
         </div>
         <div class="navbar-menu">
             <div class="navbar-end">
-                <a class="navbar-item"><span class="icon-text">
+                <a id="boton-balance" class="navbar-item"><span class="icon-text">
                         <span class="icon">
                             <i class="fas fa-chart-line"></i>
                         </span>
                         <span>Balance</span>
                     </span></a>
-                <a class="navbar-item"><span class="icon-text">
+                <a id="boton-categorias" class="navbar-item"><span class="icon-text">
                         <span class="icon">
                             <i class="fas fa-tag"></i>
                         </span>
                         <span>Categorias</span>
                     </span></a>
-                <a class="navbar-item"><span class="icon-text">
+                <a id="boton-reporte" class="navbar-item"><span class="icon-text">
                         <span class="icon">
                             <i class="fas fa-chart-pie"></i>
                         </span>
@@ -58,7 +58,7 @@
     <!-- FIN BARRA DE NAVEGACION-->
 
 
-    <section class="section">
+    <section id="seccion-balance" class="section">
         <!--CONTENEDOR DE LAS DOS COLUMNAS-->
         <div class="columns is-centered">
 
@@ -197,6 +197,25 @@
         </div>
     </section>
 
+    <section id="seccion-categorias" class="section is-hidden">
+        <div class="columns">
+            <div class="column is-6 is-offset-3 notification is-primary  ">
+                Caja Categorias
+            </div>
+
+        </div>
+    </section>
+
+    <section id="seccion-reporte" class="section is-hidden">
+        <div class="columns">
+            <div class="column is-6 is-offset-3 notification is-primary  ">
+                Caja Reportes
+            </div>
+
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
